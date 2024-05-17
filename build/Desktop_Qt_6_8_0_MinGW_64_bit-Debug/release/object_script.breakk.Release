@@ -1,0 +1,15 @@
+release/Button.o
+release/ball.o
+release/bar.o
+release/block.o
+release/coin.o
+release/game.o
+release/health.o
+release/level.o
+release/main.o
+release/paddle.o
+release/score.o
+release/qrc_Rec.o
+release/moc_Button.o
+release/moc_ball.o
+release/moc_game.o

@@ -5,9 +5,12 @@
 
 class Game;
 
+class level;
+
 class Score: public QGraphicsTextItem{
 public:
-     Game* game;
+    Game* game;
+    level* lvl;
 
     Score(QGraphicsTextItem * parent=0);
     void increase();
@@ -15,6 +18,8 @@ public:
 
 private:
     int score;
+    int maxScore;
+
 
 };
 

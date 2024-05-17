@@ -5,32 +5,39 @@
 #include<QGraphicsPixmapItem>
 #include <QGraphicsRectItem>
 
+
+
 class Ball: public QObject, public QGraphicsPixmapItem
 {
     Q_OBJECT
 public:
+    double xVelocity;
+    double yVelocity;
+    double speed = 5;
+    double ceta = 135;
     // constructors
     Ball(QGraphicsItem* parent=NULL);
 
     // public methods
     double getCenterX();
 
+    void calcualteSpeed();
+
 
 public slots:
     // public slots
 
-    void move();
+
 
 private:
     Paddle * paddle;
     // private attributes
-    double xVelocity;
-    double yVelocity;
+
+
 
     // private methods
-    void reverseVelocityIfOutOfBounds();
-    void handlePaddleCollision();
-    void handleBlockCollision();
+
+
 };
 
 #endif // BALL_H

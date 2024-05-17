@@ -1,0 +1,15 @@
+debug/Button.o
+debug/ball.o
+debug/bar.o
+debug/block.o
+debug/coin.o
+debug/game.o
+debug/health.o
+debug/level.o
+debug/main.o
+debug/paddle.o
+debug/score.o
+debug/qrc_Rec.o
+debug/moc_Button.o
+debug/moc_ball.o
+debug/moc_game.o

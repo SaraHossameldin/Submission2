@@ -11,9 +11,12 @@ CONFIG += c++17
 SOURCES += \
     Button.cpp \
     ball.cpp \
+    bar.cpp \
     block.cpp \
+    coin.cpp \
     game.cpp \
     health.cpp \
+    level.cpp \
     main.cpp \
     paddle.cpp \
     score.cpp
@@ -21,9 +24,12 @@ SOURCES += \
 HEADERS += \
     Button.h \
     ball.h \
+    bar.h \
     block.h \
+    coin.h \
     game.h \
     health.h \
+    level.h \
     paddle.h \
     Q_OBJECT \
     score.h

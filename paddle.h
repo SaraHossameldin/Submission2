@@ -4,15 +4,16 @@
 #include <QGraphicsPixmapItem>
 #include <QObject>
 
-class Paddle:public QObject, public QGraphicsPixmapItem{
-    Q_OBJECT
-
+class Paddle: public QGraphicsRectItem{
 public:
-
+    Paddle(QGraphicsItem* parent=NULL);
 
     double getCenterX();
-
     void keyPressEvent(QKeyEvent * event);
+    void update(int iDeltaTime);
+
+    int m_iWidth;
+    int m_iSuperTime;
 
 };
 

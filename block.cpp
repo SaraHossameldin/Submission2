@@ -9,7 +9,7 @@ Block::Block(QGraphicsItem *parent): QGraphicsRectItem(parent){
     QBrush brush;
 
     //format the blocks style
-    brush.setColor(Qt::gray);
+    brush.setColor(Qt::blue);
     brush.setStyle(Qt::SolidPattern);
 
     setBrush(brush);
